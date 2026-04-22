@@ -1,4 +1,6 @@
 <script>
+  import { base } from "$app/paths";
+
   // const materie = [
   //   { nome: 'Informatica', voto: 0, nota: 'N/A' },
   //   { nome: 'Sistemi e Reti', voto: 0, nota: 'N/A' },

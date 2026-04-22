@@ -1,8 +1,12 @@
 <script>
+
+  import { base } from "$app/paths";
+
+
   const anni = [
-    { href: '/terzo',  label: '3° Anno', anno: '2023–2024', desc: 'Le basi: HTML, CSS e i primi passi in informatica.' },
-    { href: '/quarto', label: '4° Anno', anno: '2024–2025', desc: 'JavaScript, algoritmi e primo progetto web, reti e sistemi.' },
-    { href: '/quinto',  label: '5° Anno', anno: '2025–2026', desc: 'Database, svelte-kit, sistemi e reti, API' },
+    { href: '{base}/terzo',  label: '3° Anno', anno: '2023–2024', desc: 'Le basi: HTML, CSS e i primi passi in informatica.' },
+    { href: '{base}/quarto', label: '4° Anno', anno: '2024–2025', desc: 'JavaScript, algoritmi e primo progetto web, reti e sistemi.' },
+    { href: '{base}/quinto',  label: '5° Anno', anno: '2025–2026', desc: 'Database, svelte-kit, sistemi e reti, API' },
 
   ];
 
@@ -20,7 +24,7 @@
     Appassionato di Primo Soccorso e NUE/118 con interesse per programmazione in Python, sistemistica e gestione.
   </p>
   <div class="hero-cta">
-    <a href="/quinto" class="btn-primary">Vedi l'ultimo anno →</a>
+    <a href="{base}/quinto" class="btn-primary">Vedi l'ultimo anno →</a>
     <a href="mailto:matteo.mariotti2007@gmail.com" class="btn-ghost">Contattami</a>
   </div>
   <div class="hero-deco" aria-hidden="true">
