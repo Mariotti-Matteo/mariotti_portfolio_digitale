@@ -9,9 +9,9 @@ export default {
     paths: {
       base: process.env.NODE_ENV === 'production' ? '/mariotti_portfolio_digitale' : ''
     },
-    trailingSlash: 'always'
   }
 };
+
 // import adapter from '@sveltejs/adapter-static';
 // /** @type {import('@sveltejs/kit').Config} */
 // const config = {
