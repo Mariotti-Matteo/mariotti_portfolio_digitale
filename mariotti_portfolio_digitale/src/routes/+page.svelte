@@ -4,9 +4,9 @@
 
 
   const anni = [
-    { href: '{base}/terzo',  label: '3° Anno', anno: '2023–2024', desc: 'Le basi: HTML, CSS e i primi passi in informatica.' },
-    { href: '{base}/quarto', label: '4° Anno', anno: '2024–2025', desc: 'JavaScript, algoritmi e primo progetto web, reti e sistemi.' },
-    { href: '{base}/quinto',  label: '5° Anno', anno: '2025–2026', desc: 'Database, svelte-kit, sistemi e reti, API' },
+    { href: 'mariotti_portfolio_digitale/terzo',  label: '3° Anno', anno: '2023–2024', desc: 'Le basi: HTML, CSS e i primi passi in informatica.' },
+    { href: 'mariotti_portfolio_digitale/quarto', label: '4° Anno', anno: '2024–2025', desc: 'JavaScript, algoritmi e primo progetto web, reti e sistemi.' },
+    { href: 'mariotti_portfolio_digitale/quinto',  label: '5° Anno', anno: '2025–2026', desc: 'Database, svelte-kit, sistemi e reti, API' },
 
   ];
 

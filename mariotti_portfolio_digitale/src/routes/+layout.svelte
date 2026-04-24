@@ -7,10 +7,10 @@
   <nav class="navbar">
     <a href="/" class="logo">Matteo</a>
     <ul class="nav-links">
-      <li><a href="{base}/" class:active={$page.url.pathname === '/'}>Home</a></li>
-      <li><a href="{base}/terzo" class:active={$page.url.pathname === '/terzo'}>3° Anno</a></li>
-      <li><a href="{base}/quarto" class:active={$page.url.pathname === '/quarto'}>4° Anno</a></li>
-      <li><a href="{base}/quinto" class:active={$page.url.pathname === '/quinto'}>5° Anno</a></li>
+      <li><a href="mariotti_portfolio_digitale/" class:active={$page.url.pathname === '/'}>Home</a></li>
+      <li><a href="mariotti_portfolio_digitale/terzo" class:active={$page.url.pathname === '/terzo'}>3° Anno</a></li>
+      <li><a href="mariotti_portfolio_digitale/quarto" class:active={$page.url.pathname === '/quarto'}>4° Anno</a></li>
+      <li><a href="mariotti_portfolio_digitale/quinto" class:active={$page.url.pathname === '/quinto'}>5° Anno</a></li>
     </ul>
   </nav>
 
